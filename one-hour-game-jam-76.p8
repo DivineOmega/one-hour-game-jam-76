@@ -10,6 +10,11 @@ function _init()
  init_game_scene()
 end
 
+function _update()
+ _update60()
+ _update60()
+end
+
 function _update60()
  scene.update()
 end
